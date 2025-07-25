@@ -120,7 +120,7 @@ function App() {
     const uniqueLetters = [...new Set(letters)];
 
     //win condition
-    if (guessedLetters.length === uniqueLetters.lenght) {
+    if (guessedLetters.length === uniqueLetters.length) {
       setScore((actualScore) => (actualScore += 100));
 
       //restart game with new word
